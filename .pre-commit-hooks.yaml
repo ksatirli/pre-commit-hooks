@@ -1,0 +1,7 @@
+---
+
+- id: standard
+  name: JavaScript Standard Style
+  entry: standard
+  language: system
+  types: [javascript]
