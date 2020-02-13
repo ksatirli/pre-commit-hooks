@@ -19,6 +19,7 @@ This repository requires `pre-commit` version `1.15` or newer.
 This repository provides a number of different hooks, all with their own dependencies.
 
 - `standard` requires the [standard](https://standardjs.com/index.html#install) package to be (globally) installed
+- `snyk-test` requires the [Snyk CLI](https://support.snyk.io/hc/en-us/articles/360003812458-Getting-started-with-the-CLI) to be installed
 
 ## Usage
 
@@ -30,6 +31,7 @@ The hooks in this repository can be used by adding the following stub to your `.
     rev: 1.0.0
     hooks:
       - id: standard
+      - id: snyk-test
 ```
 
 For a full list of hooks supported by this repository, see [.pre-commit-hooks.yaml](https://github.com/operatehappy/pre-commit-hooks/blob/master/.pre-commit-hooks-yaml)

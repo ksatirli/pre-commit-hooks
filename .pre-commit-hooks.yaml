@@ -5,3 +5,11 @@
   entry: standard
   language: system
   types: [javascript]
+
+- id: snyk-test
+  name: Test for known vulnerabilities using Snyk
+  entry: snyk
+  args: [
+    "test"
+  ]
+  language: system
