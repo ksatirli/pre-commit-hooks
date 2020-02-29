@@ -38,7 +38,7 @@ For a full list of hooks supported by this repository, see [.pre-commit-hooks.ya
 
 ## Author Information
 
-This repository is maintained by the contributors listed on [GitHub](https://github.com/operatehappy/loop-and-crash/graphs/contributors)
+This repository is maintained by the contributors listed on [GitHub](https://github.com/operatehappy/pre-commit-hooks/graphs/contributors)
 
 Development of this module was sponsored by [Operate Happy](https://github.com/operatehappy).
 
